@@ -1,74 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Arun Yadav</title>
-    <link rel="stylesheet" href="style.css" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Raleway:ital@1&display=swap");
-    </style>
-  </head>
-  <body>
-    <h1>Hello, the site is in the development process.</h1>
-    <h1 id="intro">Coming Soon!</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore doloribus
-      odit eius dignissimos voluptatem nam eligendi rem, reprehenderit facere
-      consequuntur assumenda repudiandae veritatis fugiat repellendus recusandae
-      non sequi perferendis quidem expedita maiores, corrupti porro! Recusandae
-      nesciunt consectetur cumque reiciendis, magni eaque sed, sapiente
-      voluptate aperiam eum nobis, minus ut itaque. Distinctio ipsa quibusdam,
-      deserunt hic beatae pariatur debitis iusto nesciunt corrupti asperiores
-      sapiente consectetur vitae incidunt nihil atque id! Dolorum, repellendus!
-      Magnam consectetur illum harum odio necessitatibus tempora animi ex
-      dignissimos maiores, voluptates, adipisci nihil, aliquid libero quisquam.
-      Corporis incidunt laborum aspernatur rem sint itaque facere, dignissimos
-      quaerat fuga sapiente laudantium at? Reiciendis, rem excepturi impedit
-      veritatis, aperiam illum voluptas vel enim illo sit ullam quis neque
-      laborum saepe voluptatem perferendis eum voluptate obcaecati, quo
-      cupiditate similique provident est consequuntur rerum! Voluptatibus
-      architecto perferendis unde quos, sed, veritatis repudiandae excepturi
-      ipsam dolores aperiam voluptates odit nostrum explicabo corporis iure
-      aliquid itaque magnam ipsum, officiis possimus consectetur libero. Eum, in
-      eligendi tempora culpa aperiam aliquam commodi dignissimos totam maiores,
-      repudiandae ea doloremque nemo perspiciatis amet! Beatae molestiae numquam
-      enim recusandae dolores, expedita fugiat animi quidem non consequatur
-      reiciendis perferendis, placeat porro aliquid? Sint, animi voluptates quis
-      porro, dolores architecto dolorum quaerat nostrum minus quia nemo, fuga
-      ducimus aperiam consequatur tenetur quos eligendi sapiente ad aliquam.
-      Corporis iusto architecto perspiciatis cumque ratione voluptates iure
-      asperiores deleniti illum quae aspernatur molestiae sunt tenetur veniam
-      repellat eos ullam, exercitationem a vero mollitia accusamus dignissimos
-      officiis explicabo adipisci. Quo iure, impedit unde voluptatibus ab
-      tenetur numquam, reiciendis quae reprehenderit aliquid illo eos quia odit
-      fugit saepe non expedita! Asperiores iste in necessitatibus veritatis fuga
-      inventore, beatae, eius ex ullam ipsum dolorem tenetur id? Adipisci totam
-      facilis ducimus amet voluptate mollitia debitis aspernatur voluptatibus
-      reiciendis voluptas exercitationem blanditiis non perferendis architecto
-      quidem numquam, delectus ut quia! Esse non consequatur quod libero
-      doloremque perspiciatis atque nemo vel nobis veniam dolore debitis qui
-      illo facere quaerat, facilis soluta omnis explicabo modi! Aliquam quam
-      expedita recusandae laudantium veniam praesentium debitis, blanditiis,
-      iure ex iusto veritatis? Similique dicta, accusantium aspernatur minus et
-      corrupti doloribus eaque itaque esse a soluta harum quia dolorum fugiat in
-      sint mollitia est quas. Soluta fugit velit odit cumque hic necessitatibus.
-      Deserunt rem aspernatur sapiente voluptas dolore, unde aliquid dicta
-      earum, exercitationem at error magnam quaerat, commodi necessitatibus
-      delectus. Non, odit pariatur debitis consequuntur unde excepturi porro
-      assumenda labore ullam maiores laboriosam maxime amet, nobis id quidem
-      minus aperiam dolorem, doloribus quam ea eos reiciendis. Reprehenderit,
-      voluptates odit illo obcaecati eum adipisci mollitia, amet illum alias
-      recusandae atque commodi ipsam explicabo ut corrupti. Ipsum harum dolorum
-      facere possimus libero velit itaque magni? Incidunt perferendis molestias
-      repudiandae expedita exercitationem id, aperiam dolores assumenda harum
-      nam corrupti enim molestiae, numquam similique, at sapiente ex. Sit natus
-      fugit sunt inventore cupiditate, praesentium quasi provident at quibusdam
-      quam, autem dolore adipisci voluptate optio. Aperiam ipsa provident
-      repudiandae praesentium assumenda sequi dolorum tempore, recusandae
-      voluptates, aliquid exercitationem quibusdam sint nam libero modi nobis
-      cupiditate numquam! Totam ex enim veniam repellendus nam?
-    </p>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/img/favicon.jpeg" type="image/x-icon" />
+
+  <!--=============== REMIX ICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>Arun Yadav</title>
+</head>
+
+<body>
+  <!--=============== HEADER PROFILE ===============-->
+  <header class="profile container">
+    <!-- Theme button -->
+    <i class="ri-moon-line change-theme" id="theme-button"></i>
+    <div class="profile__container grid">
+      <div class="profile__data">
+        <div class="profile__border">
+          <div class="profile__perfil">
+            <!-- Insert your image, according to the example of the portfolio -->
+            <img src="assets/img/profile.png" alt="" />
+          </div>
+        </div>
+
+        <h2 class="profile__name">Arun Yadav</h2>
+        <h3 class="profile__profession">Telecommunication Lineman</h3>
+
+        <ul class="profile__social">
+          <a href="https://www.facebook.com/arun6101/" target="_blank" class="profile__social-link">
+            <i class="ri-facebook-box-line"></i>
+            <a href="https://www.instagram.com/arun6101y/" target="_blank" class="profile__social-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+        </ul>
+      </div>
+      <div class="profile__info grid">
+        <div class="profile__info-group">
+          <h3 class="profile__info-number">24</h3>
+          <p class="profile__info-description">
+            Years of <br />
+            work
+          </p>
+        </div>
+        <div class="profile__info-group">
+          <h3 class="profile__info-number">+124</h3>
+          <p class="profile__info-description">
+            Completed <br />
+            projects
+          </p>
+        </div>
+        <div class="profile__info-group">
+          <h3 class="profile__info-number">1000+</h3>
+          <p class="profile__info-description">
+            Satisfied <br />
+            customers
+          </p>
+        </div>
+      </div>
+
+      <div class="profile__buttons">
+        <!-- Insert your CV -->
+        <a download="" href="assets/pdf/Abhishek-Cv.pdf" class="button">
+          Download CV <i class="ri-download-line"></i>
+        </a>
+
+        <div class="profile__buttons-small">
+          <!-- Insert a real number plus country code -->
+          <a href="https://api.whatsapp.com/send?phone=+9771234567890&text=Hello, more information!" target="_blank"
+            class="button button__small button__gray">
+            <i class="ri-whatsapp-line"></i>
+          </a>
+          <!-- Insert your brand name or profile -->
+          <a href="https://m.me/" target="_blank" class="button button__small button__gray">
+            <i class="ri-messenger-line"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <section class="filters container">
+      <!--=============== FILTERS TABS ===============-->
+      <ul class="filters__content">
+        <button class="filters__button filter-tab-active" data-target="#projects">
+          Projects
+        </button>
+        <button class="filters__button" data-target="#skills">Skills</button>
+      </ul>
+
+      <div class="filters__sections">
+        <!--=============== PROJECTS ===============-->
+        <div class="projects__content grid filters__active" data-content id="projects">
+          <article class="projects__card">
+            <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+            <img src="assets/img/project1.jpg" alt="" class="projects__img" />
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Web</span>
+                <h3 class="projects__title">Payment Site</h3>
+                <a href="#" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img src="assets/img/project2.jpg" alt="" class="projects__img" />
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Web</span>
+                <h3 class="projects__title">Portfolio website</h3>
+                <a href="#" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img src="assets/img/project3.jpg" alt="" class="projects__img" />
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Movil</span>
+                <h3 class="projects__title">Fast food app</h3>
+                <a href="#" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img src="assets/img/project4.jpg" alt="" class="projects__img" />
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Movil</span>
+                <h3 class="projects__title">Travel app</h3>
+                <a href="#" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img src="assets/img/project5.jpg" alt="" class="projects__img" />
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Design</span>
+                <h3 class="projects__title">Music app design</h3>
+                <a href="#" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!--=============== SKILLS ===============-->
+        <div class="skills__content grid" data-content id="skills">
+          <div class="skills__area">
+            <h3 class="skills__title">Frontend Developer</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__level">Advanced</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">React</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">Bootstrap</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">Git</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__area">
+            <h3 class="skills__title">Backend Developer</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">PHP</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">MySQL</h3>
+                    <span class="skills__level">Advance</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">Firebase</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">Python</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">Node Js</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer container">
+    <span class="footer__copy">
+      &#169; Arun Yadav. All rigths reserved
+    </span>
+  </footer>
+
+  <!--=============== SCROLLREVEAL ===============-->
+  <script src="assets/js/scrollreveal.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>
